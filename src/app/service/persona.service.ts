@@ -4,10 +4,10 @@ import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root'   
 })
 export class PersonaService {
-URL = 'http://localhost:8080/personas/';
+URL = 'https://backend-5s32.onrender.com/personas';
  
 constructor(private http: HttpClient) { }
 
